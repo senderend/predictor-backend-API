@@ -8,8 +8,8 @@ primary_region = 'sjc'
 
 [build]
 
-[deploy]
-  release_command = "npx prisma db push"
+# [deploy]
+#   release_command = "npx prisma db push"
 
 [http_service]
   internal_port = 8080
